@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="871632657613-op0fd1vj9qk05o1iqlemfekj6lhgk3am.apps.googleusercontent.com">
+    <title>로그인</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex mt-5 ms-auto me-auto">
+            <a class="navbar-brand ms-auto me-auto" href="#"><h1>OurProgrammer</h1></a>
+        </header>
+        <main class="mt-5">
+            <div class="card border-light mb-3 ms-auto me-auto" style="max-width: 30rem;">
+                <div class="card-header bg-transparent border-light d-flex justify-content-between">
+                    <div>로그인</div>
+                    <div><input type="checkbox" class="me-2">로그인 상태 유지</div>
+                </div>
+
+                <div class="card-body p-5 text-dark">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                      <button class="btn btn-primary mt-3 mb-3 w-100" type="button">로그인</button>
+                      <div class="g-signin2 mt-3" data-onsuccess="onSignIn"></div>
+                </div>
+                <div class="card-footer bg-transparent border-light text-center">비밀번호 찾기 ㅣ 회원가입</div>
+            </div>
+        </main>
+
+    </div>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+
+</html>
