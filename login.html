@@ -13,11 +13,11 @@
 <body>
     <div class="container">
         <header class="d-flex mt-5 ms-auto me-auto">
-            <a class="navbar-brand ms-auto me-auto" href="#"><h1>OurProgrammer</h1></a>
+            <a class="navbar-brand ms-auto me-auto" href="/index.html"><h1>OurProgrammer</h1></a>
         </header>
         <main class="mt-5">
-            <div class="card border-light mb-3 ms-auto me-auto" style="max-width: 30rem;">
-                <div class="card-header bg-transparent border-light d-flex justify-content-between">
+            <div class="card border-gray mb-3 ms-auto me-auto" style="max-width: 30rem;">
+                <div class="card-header bg-transparent border-gray d-flex justify-content-between">
                     <div>로그인</div>
                     <div><input type="checkbox" class="me-2">로그인 상태 유지</div>
                 </div>
@@ -25,16 +25,18 @@
                 <div class="card-body p-5 text-dark">
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
+                        <label for="floatingInput">이메일 주소</label>
                       </div>
                       <div class="form-floating">
                         <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">Password</label>
+                        <label for="floatingPassword">비밀번호</label>
                       </div>
-                      <button class="btn btn-primary mt-3 mb-3 w-100" type="button">로그인</button>
+                      <button class="btn btn-primary pt-3 pb-3 mt-3 mb-3 w-100 text" type="button">로그인</button>
                       <div class="g-signin2 mt-3" data-onsuccess="onSignIn"></div>
                 </div>
-                <div class="card-footer bg-transparent border-light text-center">비밀번호 찾기 ㅣ 회원가입</div>
+                <div class="card-footer bg-transparent border-gray d-flex justify-content-center">
+                    <a href="" class="nav-link">비밀번호 찾기</a> <a href="" class="nav-link">회원가입</a>
+                </div>
             </div>
         </main>
 
